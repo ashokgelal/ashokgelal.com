@@ -4,7 +4,7 @@ date: 2016-11-11 22:46:47
 tags:
 ---
 
-> "A journey of thousand miles start with a single step." - Lao Tzu 
+> "A journey of a thousand miles begins with a single step." - Lao Tzu 
 
 I have been thinking about working on a simple web project for couple of weeks now. I will go into more details about the project in a future post but for now let me tell you why I am here. 
 
