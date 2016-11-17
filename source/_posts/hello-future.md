@@ -1,7 +1,9 @@
 ---
 title: Hello, Future!
 date: 2016-11-11 22:46:47
-tags:
+tags: 
+- introduction
+- blog
 ---
 
 > "A journey of a thousand miles begins with a single step." - **Lao Tzu**
