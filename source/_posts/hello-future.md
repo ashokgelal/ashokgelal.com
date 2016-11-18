@@ -6,9 +6,11 @@ tags:
 - blog
 ---
 
-> "A journey of a thousand miles begins with a single step." - **Lao Tzu**
+> *"A journey of a thousand miles begins with a single step."* - **Lao Tzu**
 
 I have been thinking about working on a simple web project for couple of weeks now. I will go into more details about the project in a future post but for now let me tell you why I am here. 
+
+<!--more-->
 
 Usually when I get an idea for an app and decide to make it happen, I just go ahead and start implementing it. I usually start with describing some features. Then after drawing some mock-ups, I get straight into coding.
 
