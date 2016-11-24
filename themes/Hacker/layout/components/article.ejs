@@ -14,15 +14,15 @@
     <% } %>
   <% } %>
 
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="<%- config.root %><%- item.path %>" rel="bookmark">
-        <time class="entry-date published" datetime="<%= item.date.toDate().toISOString() %>">
-          <%= item.date.format(config.date_format) %>
-        </time>
-      </a>
-    </span>
-  </div>
+  <!--<div class="article-top-meta">-->
+    <!--<span class="posted-on">-->
+      <!--<a href="<%- config.root %><%- item.path %>" rel="bookmark">-->
+        <!--<time class="entry-date published" datetime="<%= item.date.toDate().toISOString() %>">-->
+          <!--<%= item.date.format(config.date_format) %>-->
+        <!--</time>-->
+      <!--</a>-->
+    <!--</span>-->
+  <!--</div>-->
 
 
   <% if (item.photos && item.photos.length){ %>
