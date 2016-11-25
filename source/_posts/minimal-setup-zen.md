@@ -3,6 +3,8 @@ title: Minimal Setup Zen
 date: 2016-11-24 15:31:10
 tags:
 ---
+> *"Happiness is very simple and minimal."* - **Tablo**
+
 My desk has nothing more than a laptop, two monitors, a keyboard, a mouse, and a small coffee cup. I don’t even have books on my desk. They go to the book shelf where they should be. I’m proud of my office desk setup. But when it came to my laptop setup, I knew I had a bit of work to do.
 
 I have always hated cluttering my computer. I keep it fairly clean - relative speaking. The difference between some of my friends' setup and my setup is of day and night. But my IDEs, docks, menubar are cluttered more that I was proud of. This had to change!
