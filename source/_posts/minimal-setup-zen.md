@@ -2,6 +2,9 @@
 title: Minimal Setup Zen
 date: 2016-11-24 15:31:10
 tags:
+- productivity
+- technology
+- lifestyle
 ---
 > *"Happiness is very simple and minimal."* - **Tablo**
 
