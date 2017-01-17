@@ -7,7 +7,7 @@ tags:
 - iterm
 ---
 
-[iTerm](https://www.iterm2.com/) shows this annoying `Last login: <date> on ttys000` message every time you open it or open a new tab.
+[iTerm](https://www.iterm2.com/) shows this annoying `Last login: <date> on ttys000` message every time you open it or open a new tab. ...
 
 <!--more-->
 

@@ -7,7 +7,9 @@ tags:
 - tips
 ---
 
-Mac doesn’t like you to open multiple copies of an application. If you try to open a new copy, it will switch to the running copy. If you want to open a new copy, this is what you need to do from your terminal:
+Mac doesn’t like you to open multiple copies of an application. If you try to open a new copy, it will switch to the running copy. If you want to open a new copy, this is what you need to do from your terminal: ...
+
+<!--more-->
 
 ```bash
 open -n /Applications/<name of application>.app

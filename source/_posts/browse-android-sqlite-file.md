@@ -7,7 +7,9 @@ tags:
 - tips
 ---
 
-There is no easy way to see the contents of your Android app’s database unless your device is rooted. If it is not rooted, you can first copy your database file to a sdcard (whether real or simulated) and then copy it back to your computer. You can then use any SQLite browser app such as [Firefox’s SQLite Manager](https://addons.mozilla.org/en-us/firefox/addon/sqlite-manager/) to browse the contents. These are the steps you need:
+There is no easy way to see the contents of your Android app’s database unless your device is rooted. If it is not rooted, you can first copy your database file to a sdcard (whether real or simulated) and then copy it back to your computer. You can then use any SQLite browser app such as [Firefox’s SQLite Manager](https://addons.mozilla.org/en-us/firefox/addon/sqlite-manager/) to browse the contents. These are the steps you need: ...
+
+<!--more-->
 
 1) Add the following helper function somewhere in your code (doesn’t matter where you put it; it’s a static function):
 

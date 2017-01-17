@@ -10,7 +10,7 @@ tags:
 
 I've been doing web development with [Laravel](https://laravel.com) for quite some time now. Honestly speaking, I really like Laravel. It has a great ecosystem and an awesome community.
 
-As much as I like Laravel, I cannot make myself to like PHP. It has just too much magic to my liking. And honestly, as great as Laravel is, its liberal use of facades, and some other cool tricks, makes the magic even more black. I would be fine if I have to use it in my day-to-day job. but for my own side projects, I prefer something modern and something with less magic. Also, preferably statically typed as it makes it easier to understand the underlying framework.
+As much as I like Laravel, I cannot make myself to like PHP. It has just too much magic to my liking. And honestly, as great as Laravel is, its liberal use of facades, and some other cool tricks, makes the magic even more black. I would be fine if I have to use it in my day-to-day job. but for my own side projects, I prefer something modern and something with less magic. Also, preferably statically typed as it makes it easier to understand the underlying framework. ...
 
 <!--more-->
 
