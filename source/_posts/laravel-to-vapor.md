@@ -6,7 +6,7 @@ tags:
 - Swift
 - web
 ---
-
+> *"If you don't like something, change it. If you can't change it, change your attitude."* - **Maya Angelou**
 
 I've been doing web development with [Laravel](https://laravel.com) for quite some time now. Honestly speaking, I really like Laravel. It has a great ecosystem and an awesome community.
 
