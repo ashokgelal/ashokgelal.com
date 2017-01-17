@@ -10,7 +10,9 @@ tags:
 
 I've been doing web development with [Laravel](https://laravel.com) for quite some time now. Honestly speaking, I really like Laravel. It has a great ecosystem and an awesome community.
 
-As much as I like Laravel, I've trying to move away from PHP because no matter how hard I try, I don't make myself to like it. I just hate it that it has too much magic in it. And honestly, as great as Laravel is, its liberal use of facades makes the magic even more black. I would be fine if I have to use it in my day-to-day job. but for my own side projects, I prefer something modern and something with less magic. Also, preferably statically typed as it makes it easier to understand the underlying framework.
+As much as I like Laravel, I cannot make myself to like PHP. It has just too much magic to my liking. And honestly, as great as Laravel is, its liberal use of facades, and some other cool tricks, makes the magic even more black. I would be fine if I have to use it in my day-to-day job. but for my own side projects, I prefer something modern and something with less magic. Also, preferably statically typed as it makes it easier to understand the underlying framework.
+
+<!--more-->
 
 I've been looking for a framework that closely resembled Laravel but in Swift programming language. Swift is probably my favorite language so far. I don't get to play with it in my daytime job but I've  ported one of my side projects, [LightPaper](http://lightpaper.42squares.in), from Objective-C and written handful of other apps such as [Snub](https://github.com/ashokgelal/Snub), [Octohub](https://www.producthunt.com/posts/octohub) etc in Swift. And I absolutely enjoy writing Swift would be an understatement!
 
