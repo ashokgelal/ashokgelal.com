@@ -11,4 +11,6 @@ disqus: false
 disqus_shortname: 
 
 # google analytics
-googleTrackId: 
+googleTrackId: UA-5531338-1
+
+author_link: https://twitter.com/ashokgelal

@@ -1,8 +1,8 @@
 ---
-title: TIL - Getting rid of 'last login' message from iTerm
-date: 2016-11-15 21:01:38
+title: Getting rid of 'last login' message from iTerm
+date: 2017-01-03 21:01:38
 tags:
-- til
+- terminal
 - tips
 - iterm
 ---
@@ -13,7 +13,7 @@ tags:
 
 ![](/images/iterm-hush.png)
 
-Today I learned how to disable it. And it was easier than I thought. Here are the steps:
+Disabling this message is actually very easy. Here are the steps:
 
 1. Create a `.hushlogin` file under your home directory.
 2. There is no step 2. You are done!

@@ -1,6 +1,6 @@
 ---
 title: Minimal Setup Zen
-date: 2016-11-24 15:31:10
+date: 2017-01-01 15:31:10
 tags:
 - productivity
 - technology
@@ -10,19 +10,19 @@ tags:
 
 My desk has nothing more than a laptop, two monitors, a keyboard, a mouse, and a small coffee cup. I don’t even have books on my desk. They go to the book shelf where they should be. I’m proud of my office desk setup. But when it came to my laptop setup, I knew I had a bit of work to do.
 
-I have always hated cluttering my computer. I keep it fairly clean - relative speaking. The difference between some of my friends' setup and my setup is of day and night. But my IDEs, docks, menubar are cluttered more that I was proud of. This had to change!
+I have always hated cluttering my computer. I keep it fairly clean - relative speaking. The difference between some of my friends' setup and my setup is of day and night. But my IDEs, docks, menu bar are cluttered more that I was proud of. This had to change!
 
 <!--more-->
 
 Recently, I have been on a long spree to clean up my setup and go absolutely minimal. Here are some of the changes I’ve made in my digital life to embrace the Zen of minimalism even more than before:
 
 ### This blog
-If you look around, this blog is as minimal as it could be. There are no sidebars, no menu items, no blogrolls, etc. My blog setup used to be never like this when I was using WordPress. In fact, one of the reasons why I set up this blog as a static website rather than going after WordPress - or even Medium - was to have something very very minimal. I wanted both the backend and the frontend to be minimal.
+If you look around, this blog is as minimal as it could be. There are no sidebars, no menu items, no blog rolls, etc. My blog setup used to be never like this when I was using WordPress. In fact, one of the reasons why I set up this blog as a static website rather than going after WordPress - or even Medium - was to have something very very minimal. I wanted both the backend and the frontend to be minimal.
 
 ### Applications
 Over the last few days, I’ve deleted more than 25 apps that I’ve almost never used for a long time. I was always hesitant to uninstall them thinking that I might need them some day. But when I checked with [CleanMyMac](http://macpaw.com/cleanmymac), it was confirmed that I hardly use most of them. I've not used some of the apps since December 2014 - the month I got my current laptop!
 
-I was so determined to go minimalism that I even got rid of one of the fairly popular apps I have developed. It was a tough decision, but at the end of the day, I just wasn’t using the app anymore.
+I was so determined to go minimalism that I even got rid of one of the fairly popular apps I have developed. It was a tough decision, but at the end of the day, I just wasn’t using the app anymore. And no it wasn't not [LightPaper](http://lightpaper.42squares.in) :)
 
 I couldn't delete all the built-in apps that ship with MacOS. I'm bummed about it. I never use most of them. The only one I use regularly is Preview app.
 
@@ -33,8 +33,8 @@ I’ve now gone even more minimal with my desktop. I’ve been only saving tempo
 
 <div style="margin: 0 auto"> ![My minimal desktop](/images/minimal-desktop.png) </div> </br>
 
-### Dock and Menubar
-I’ve always kept my menubar very minimal as well. So there wasn’t a lot to clean up there. But I was still able to remove some of the menu items. I kicked them out from my startup items as well.
+### Dock and Menu bar
+I’ve always kept my menu bar very minimal as well. So there wasn’t a lot to clean up there. But I was still able to remove some of the menu items. I kicked them out from my startup items as well.
 
 Again, my dock has had only essential items set to “Keep in Dock, ” but there were few that I used only once in a blue moon. Now, I’ve only kept the items that I use every day such as [Polymail](https://polymail.io/), [LightPaper](http://lightpaper.42squares.in/), [SourceTree](https://www.sourcetreeapp.com/), [iTerm2](https://www.iterm2.com/), etc.
 <div style="margin: 0 auto"> ![My minimal dock](/images/minimal-dock.png) </div> <br/>
@@ -50,7 +50,7 @@ The only bookmark I’ve is to this blog and not because I need it but if I don�
 
 I wish there existed a way to get rid of bookmarks bar completely or at least get rid of *Other Bookmarks* folder on the right. But so far I've not found a way to do it.
 
-Honestly, I don’t see any advantage of having a bookmark bar showing in my face all the time and taking up my precious vertical screen real state. With location autocompletion, I can just type a character or two, hit enter, and visit the website I’m interested in. I’m a Vi enthusiast and use keyboard shortcuts for most of my tasks. So it slows me down to grab my mouse and click that bookmark.
+Honestly, I don’t see any advantage of having a bookmark bar showing in my face all the time and taking up my precious vertical screen real state. With location auto-completion, I can just type a character or two, hit enter, and visit the website I’m interested in. I’m a Vi enthusiast and use keyboard shortcuts for most of my tasks. So it slows me down to grab my mouse and click that bookmark.
 
 Another annoying “*feature*” of Chrome browser is that avatar name that gets displayed on the top-right corner. But, I got rid of it using this [“dirty-but-effective” trick](http://superuser.com/a/1052198/61466).
 
