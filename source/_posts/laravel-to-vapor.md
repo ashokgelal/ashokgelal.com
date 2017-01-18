@@ -3,9 +3,10 @@ title: A Swift transition from Laravel to Vapor
 date: 2017-01-16 10:56:11
 tags:
 - vapor
-- Swift
-- web
+- swift
+- web-development
 ---
+
 > *"If you don't like something, change it. If you can't change it, change your attitude."* - **Maya Angelou**
 
 I've been doing web development with [Laravel](https://laravel.com) for quite some time now. Honestly speaking, I really like Laravel. It has a great ecosystem and an awesome community.
