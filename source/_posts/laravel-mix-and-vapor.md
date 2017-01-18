@@ -13,7 +13,9 @@ Laravel is not only a solid, well-written, and well-documented framework but it 
 
 The first thing I missed right away using Vapor was the lack of a good frontend build tool for compiling assets such as JavaScripts and CSS. I'm sure there exists one but I didn't find any "officially promoted" one and nothing as good as [Laravel Elixir](https://laravel.com/docs/5.3/elixir), or it's next version - [Laravel Mix](https://github.com/JeffreyWay/laravel-mix). 
 
-Thankfully, Laravel Mix, despite its name, seems to work well with any other kind of frameworks; including Vapor. There are few Laravel specific features such as a function called `mix` (and a Laravel Logo) but nothing that should block us from using it in our own Vapor project. In this post we'll see how to integrate Laravel Mix in your own Vapor project.
+Thankfully, Laravel Mix, despite its name, seems to work well with any other kind of frameworks; including Vapor. There are few Laravel specific features such as a function called `mix` (and a Laravel Logo) but nothing that should block us from using it in our own Vapor project. In this post we'll see how to integrate Laravel Mix in your own Vapor project. ...
+
+<!--more-->
 
 ### Initialize project and adding dependencies
 
@@ -42,7 +44,7 @@ We are now ready to compile our assets but first we need some assets. For this a
 1: Create `app.js` under `Resources/Assets/js` folder:
 
 ```bash
-mkdir -p Resources/Assets/js && touch Resources/Assets/js/app.js
+$ mkdir -p Resources/Assets/js && touch Resources/Assets/js/app.js
 ```
 
 2: Open `app.js` file and add this:
@@ -54,7 +56,7 @@ console.log('Mixing Laravel Mix with Vapor')
 3: Create `app.scss` under `Resources/Assets/scss` folder:
 
 ```bash
-mkdir -p Resources/Assets/scss && touch Resources/Assets/scss/app.scss
+$ mkdir -p Resources/Assets/scss && touch Resources/Assets/scss/app.scss
 ```
 
 4: Open `app.scss` file and add this:
@@ -71,10 +73,10 @@ You need a `webpack.mix.js` file in the project's root folder. `webpack.mix.js` 
 
 1: In the project's root folder create a new file `webpack.mix.js`, open it and add the following:
 
-```javascript
+```js
 let mix = require('laravel-mix').mix
 mix.js('Resources/Assets/js/app.js', 'Public/js')
-    .sass('Resources/Assets/scss/app.scss', 'Public/css')
+   .sass('Resources/Assets/scss/app.scss', 'Public/css')
 ```
 
 Here, we are saying that we want to compile `Resources/Assets/js/app.js` to `Public/js/app.js` file and `Resources/Assets/scss/app.scss` to `Public/css/app.css` file.
@@ -83,7 +85,7 @@ Now, we need to add some triggers to actually run compilation using this file.
 
 2: Open `package.json` file and add/ modify `scripts` object to include these Webpack scripts:
 
-```json
+```js
   "scripts": {
     "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
