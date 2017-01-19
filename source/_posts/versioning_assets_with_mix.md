@@ -15,9 +15,11 @@ In the [previous tutorial][2], I showed you how you can use [Laravel-Mix](https:
 
 As we saw in the previous tutorial, we have 3 *npm run* scripts at our disposal that we can use to compile our assets:
 
-1. `npm run webpack`: to just compile the assets.
-2. `npm run dev`: to continuously build the assets as you modify them.
-3. `npm run production`: we didn't cover this but this is what you'd use to compile your assets for production. Among few other things, the most important task it performs is [minifying](https://www.maxcdn.com/one/visual-glossary/minification/) your assets.
+1: `npm run webpack` - to just compile the assets.
+
+2: `npm run dev` - to continuously build the assets as you modify them.
+
+3: `npm run production` - we didn't cover this but this is what you'd use to compile your assets for production. Among few other things, the most important task it performs is [minifying](https://www.maxcdn.com/one/visual-glossary/minification/) your assets.
 
 ### Versioning your assets:
 
@@ -48,7 +50,7 @@ You will now see that it generated few hashed files. You can now refer to these 
 
 where *xxxx* and *yyyy* are hashes of corresponding files.
 
-### Dealing with dynamic hashed filenames
+### Dealing with dynamic hashed filenames:
 
 The thing is, as you change a file, its hash gets changed as well. So you have to remember to update all your asset references every time you make a change.
 
