@@ -3,7 +3,7 @@ title: Mixing Laravel Mix with Vapor
 date: 2017-01-17 3:17:15
 tags:
 - vapor
-- laravel
+- laravel-mix
 - front end
 ---
 
