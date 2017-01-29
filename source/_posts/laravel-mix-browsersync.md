@@ -11,6 +11,8 @@ tags:
 
 At first, I thought I'd fine with it but as soon as I started working on a [real project](https://todayiread.online), I realized that the lack of auto-refreshing of browser made me less productive. After spending hours trying different things to make Browsersync work, I finally got it working and turns out it is actually very easy. Here are the steps:
 
+<!--more-->
+
 1: Install npm dependencies:
 
 ```bash
