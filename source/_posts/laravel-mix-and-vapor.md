@@ -7,7 +7,7 @@ tags:
 - front end
 ---
 
-[Moving](https://ashokgelal.com/2017/01/16/laravel-to-vapor/) from a great framework like Laravel to Vapor is anything but easy. And as I was expecting, it didn't take me too long to realize this. Laravel is not only a solid, well-written, and well-documented framework but it also brings with it a handful of essential packages such as [Cashier](https://laravel.com/docs/5.3/billing), [Socialite](https://github.com/laravel/socialite), [Echo](https://laravel.com/docs/5.3/broadcasting), [Dusk](https://github.com/laravel/dusk) etc. These packages are officially supported and make your day to day job as a web developer much enjoyable and very productive.
+Trying a different framework after using Laravel is anything but easy. And as I was expecting, it didn't take me too long to realize this. Laravel is not only a solid, well-written, and well-documented framework but it also brings with it a handful of essential packages such as [Cashier](https://laravel.com/docs/5.3/billing), [Socialite](https://github.com/laravel/socialite), [Echo](https://laravel.com/docs/5.3/broadcasting), [Dusk](https://github.com/laravel/dusk) etc. These packages are officially supported and make your day to day job as a web developer much enjoyable and very productive.
 
 The first thing I missed right away using Vapor was the lack of a good front end build tool for compiling assets such as JavaScripts and CSS. I'm sure there exists one but I didn't find any "officially promoted" one and nothing as good as [Laravel Elixir](https://laravel.com/docs/5.3/elixir), or it's next version - [Laravel Mix](https://github.com/JeffreyWay/laravel-mix).
 
