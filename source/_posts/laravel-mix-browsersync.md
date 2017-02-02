@@ -16,7 +16,7 @@ At first, I thought I'd fine without it but as soon as I started working on a [r
 1: Install npm dependencies:
 
 ```bash
-$ npm browser-sync browser-sync-webpack-plugin webpack-dev-server  --save-dev
+$ npm install browser-sync browser-sync-webpack-plugin webpack-dev-server --save-dev
 ```
 
 2: Open `webpack.mix.js` and append following code:
