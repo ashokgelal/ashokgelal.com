@@ -7,7 +7,9 @@ tags:
 - toastr
 ---
 
-I use [toastr]() for showing alerts in my web apps. Before it was as easy as adding a script tag and a link tag from CDNJS. But with Webpack and Laravel 5.4, this no longer works. Not just `toastr`, I've found that, at least in my experience, any libraries that depend on jQuery has the same issue. The only way I could make it work is through npm. It's a bit pain to npm every package, to be honest.
+I use [toastr]() for showing alerts in my web apps. Before it was as easy as adding a script tag and a link tag from CDNJS. But with Webpack and Laravel 5.4, this no longer works. Not just `toastr`, I've found that, at least in my experience, any libraries that depend on jQuery has the same issue. The only way I could make it work is through npm. It's a bit pain to npm every package, to be honest. ...
+
+<!--more-->
 
 Anyway, this is how I got to work toastr with my new Laravel 5.4 app:
 

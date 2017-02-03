@@ -9,7 +9,7 @@ tags:
 
 [Laravel Mix](https://github.com/JeffreyWay/laravel-mix) is basically a wrapper around Webpack and even comes with few scripts out-of-the-box. This is great and I like it a lot, esp. [Hot Module Replacement](https://github.com/JeffreyWay/laravel-mix/blob/master/docs/hot-module-replacement.md) part. But this also means we can no longer use old Laravel Elixir plugins. The one plugin that I really missed was the [Browsersync](https://github.com/JeffreyWay/laravel-elixir-browsersync-official) support.
 
-At first, I thought I'd fine without it but as soon as I started working on a [real project](https://todayiread.online), I realized that the lack of auto-refreshing of browser made me less productive. After spending hours trying different things to make Browsersync work, I finally got it working! Turns out it is actually very easy. Here are the steps:
+At first, I thought I'd fine without it but as soon as I started working on a [real project](https://todayiread.online), I realized that the lack of auto-refreshing of browser made me less productive. After spending hours trying different things to make Browsersync work, I finally got it working! Turns out it is actually very easy. Here are the steps: ...
 
 <!--more-->
 
