@@ -17,6 +17,7 @@ Anyway, this is how I got to work toastr with my new Laravel 5.4 app:
 
 ```bash
 $ npm install toastr --save-dev
+
 ``` 
 
 2: Require it from `bootstrap.js` and make it available globally:
