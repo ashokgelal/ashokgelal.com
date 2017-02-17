@@ -31,34 +31,34 @@ Unfortunately, Shipping Docker doesn't go through actually defining what docker 
 
 ```bash
 $ docker ps
-	# check for running containers
+# check for running containers
 ```
 
 ```bash
 $ docker ps -a
-	# check for existing containers, running or not
+# check for existing containers, running or not
 ```
 
 ```bash
 $ docker images
-	# view local images
+# view local images
 ```
 
 * Creating and running an image
 
 ```bash
 $ docker run ubuntu:16.10 ls -lah
-	# 1. if ubuntu:16.10 doesn't exist it downloads the image
-	# 2. create a new container based on ubuntu:16.10
-	# 3. run ls -lah command in the container
-	# 4. stop the container
+# 1. if ubuntu:16.10 doesn't exist it downloads the image
+# 2. create a new container based on ubuntu:16.10
+# 3. run ls -lah command in the container
+# 4. stop the container
 ```
 
 * Inspecting a container
 
 ```bash
 $ docker inspect container_name_or_id | jq
-	# jq is a different command for formatting a json string in the terminal downloadable using brew
+# jq is a different command for formatting a json string in the terminal downloadable using brew
 ```
 
 * Removing a container
@@ -90,37 +90,36 @@ docker rmi ubuntu:16.10
 
 ```bash
 $ docker run -i -t ubuntu:16.10 bash
-	# -i => interactive
-	# -t => allocate a pseudo-TTY
-	# you can combine -i -t to -it
+# -i => interactive
+# -t => allocate a pseudo-TTY
+# you can combine -i -t to -it
 ```
 
 * Starting/ Stopping an existing container
 
 ```bash
 $ docker start container_id
-	# container is running but isn't interactive; run docker ps to verify
+# container is running but isn't interactive; run docker ps to verify
 $ docker stop container_id
 $ docker start -i container_id
-	# start the container in interactive mode.
-	# The first command that was used when creating the container will run when you start it again.
-	# For an example if container was created using 'docker run -i -t ubuntu:16.10 bash' command,
-	# bash will run as the first command.
+# start the container in interactive mode.
+# The first command that was used when creating the container will run when you start it again.
+# For an example if container was created using 'docker run -i -t ubuntu:16.10 bash' command,
+# bash will run as the first command.
 ```
 
 ### Nginx and port sharing
 
 ```bash
 $ docker run -it -p 89:80 ubuntu:16.10 bash
-	# -p => share port. Here we are mapping local port 89 to container's port 80
+# -p => share port. Here we are mapping local port 89 to container's port 80
 c$ apt-get update && apt-get install -y nginx
-	# c$ => from container's shell; just my convention
+# c$ => from container's shell; just my convention
 c$ nginx
-	# start nginx
-	
+# start nginx
 # Now from a local terminal (without closing container), try accessing localhost on port 89:
 $ curl localhost:89
-	# should see standard nginx landing page
+# should see standard nginx landing page
 ```
 
 ### Sharing volumes
@@ -129,13 +128,12 @@ $ mkdir ~/dockertest
 $ cd ~/dockertest
 $ echo 'hello, docker!' > index.html
 $ docker run -it -p 89:80 -v ~/dockertest:/var/www/html ubuntu:16.10 bash
-	# -v => share volume. Here we are sharing everything inside local machine's ~/dockertest to container's /var/www/html
+# -v => share volume. Here we are sharing everything inside local machine's ~/dockertest to container's /var/www/html
 c$ apt-get update && apt-get install -y nginx
 c$ nginx
-
 # Now from a local terminal (without closing container), try accessing localhost on port 89:
 $ curl localhost:89
-	# You should see our custom page instead of standard nginx landing page
+# You should see our custom page instead of standard nginx landing page
 ```
 
 That's it for the basics!
