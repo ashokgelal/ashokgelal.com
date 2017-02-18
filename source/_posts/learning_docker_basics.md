@@ -1,5 +1,5 @@
 ---
-title: Learning Docker - Basics
+title: Learning Docker - Committing Changes
 date: 2017-02-17 00:01:38
 tags:
 - docker
